@@ -1,52 +1,50 @@
-.section__article{
-    display: inline-block;
-    
-}
-*{  
-    background-color: transparent;
-    margin: 0; 
+* {
+    margin: 0;
     padding: 0;
-    box-sizing: border-box;  
-}
-.div__img{
-    width: 100%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .important--text {
+      color: blueviolet;
+  
+  }
+  
+  .Header--Container {
     position: fixed;
-    background-color: rgb(17 17 17) ;
-}
-.div__dos__img{
+    z-index: 10;
     width: 100%;
+    top: 0;
+    background: #000;
     display: flex;
     justify-content: space-between;
-}
-.header__img1{
-    height: 80px;
-    size: 100px;
-    text-align: left;
-    /* display: inline; */
-}
-.header__img2{
-    height: 80px;
-    
-} 
-
-.main__div{
-    justify-content: center;
-}
-.main__div__h1{
-    left: 100px;
-    font-family: sans-serif;
-    height: 30px;
-    color: rgb(240, 248, 255);
-}
-.main__div__imagenfondo{
-    margin-top: 80px;
-    display:flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
-    background-image: url("MEDIA/jumbotron.9f78461f61bdcd463a26.jpg");
-}
-
-
-
-
+    align-items: center;
+    height: 3rem;
+    padding: 0 2rem;
+  }
+  
+  .img--personal_flow,
+  .img--secure_desktop {
+    height: 2rem;
+  }
+  
+  .container--img_fondo {
+    position: relative;
+    margin-top: 3rem;
+  }
+  
+  /*? SELECCIONA LA PRIMERA ETIQUETA IMG QUE ENCUENTRE DENTRO DE LA CLASE */
+  .container--img_fondo img:first-child {
+    width: 100%;
+  }
+  .container--img_fondo > h3 {
+    position: absolute;
+    top: 1rem;
+    padding-left: 2rem;
+    color: rgb(213, 213, 218);
+  }
+  
+  footer {
+    margin-top: 2000px;
+  }
+  
