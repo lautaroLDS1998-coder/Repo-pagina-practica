@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 :root{
     --color-text: red;
 }
+=======
+>>>>>>> bbfa606b9d98c76a7e719e5513b571b5f034a6e8
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
 }
 .important--text {
     /* color: blueviolet; */
@@ -14,6 +18,16 @@
 }
 
 .Header--Container {
+=======
+  }
+  
+  .important--text {
+      color: blueviolet;
+  
+  }
+  
+  .Header--Container {
+>>>>>>> bbfa606b9d98c76a7e719e5513b571b5f034a6e8
     position: fixed;
     z-index: 10;
     width: 100%;
@@ -24,6 +38,7 @@
     align-items: center;
     height: 3rem;
     padding: 0 2rem;
+<<<<<<< HEAD
 }
 
 .img--personal_flow,
@@ -65,3 +80,32 @@ footer {
     height: 300px;
     width:100px ;
 }
+=======
+  }
+  
+  .img--personal_flow,
+  .img--secure_desktop {
+    height: 2rem;
+  }
+  
+  .container--img_fondo {
+    position: relative;
+    margin-top: 3rem;
+  }
+  
+  /*? SELECCIONA LA PRIMERA ETIQUETA IMG QUE ENCUENTRE DENTRO DE LA CLASE */
+  .container--img_fondo img:first-child {
+    width: 100%;
+  }
+  .container--img_fondo > h3 {
+    position: absolute;
+    top: 1rem;
+    padding-left: 2rem;
+    color: rgb(213, 213, 218);
+  }
+  
+  footer {
+    margin-top: 2000px;
+  }
+  
+>>>>>>> bbfa606b9d98c76a7e719e5513b571b5f034a6e8
