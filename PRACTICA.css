@@ -1,52 +1,67 @@
-.section__article{
-    display: inline-block;
-    
+:root{
+    --color-text: red;
 }
-*{  
-    background-color: transparent;
-    margin: 0; 
+* {
+    margin: 0;
     padding: 0;
-    box-sizing: border-box;  
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.div__img{
-    width: 100%;
+.important--text {
+    /* color: blueviolet; */
+    color: rgb(255, 255, 255);
+
+}
+
+.Header--Container {
     position: fixed;
-    background-color: rgb(17 17 17) ;
-}
-.div__dos__img{
+    z-index: 10;
     width: 100%;
+    top: 0;
+    background: #000;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    padding: 0 2rem;
 }
-.header__img1{
-    height: 80px;
-    size: 100px;
-    text-align: left;
-    /* display: inline; */
-}
-.header__img2{
-    height: 80px;
+
+.img--personal_flow,
+.img--secure_desktop {
+    height: 2rem;
     
-} 
-
-.main__div{
-    justify-content: center;
-}
-.main__div__h1{
-    left: 100px;
-    font-family: sans-serif;
-    height: 30px;
-    color: rgb(240, 248, 255);
-}
-.main__div__imagenfondo{
-    margin-top: 80px;
-    display:flex;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 200px;
-    background-image: url("MEDIA/jumbotron.9f78461f61bdcd463a26.jpg");
 }
 
+.container--img_fondo {
+    position: relative;
+    margin-top: 3rem;
+}
 
+/*? SELECCIONA LA PRIMERA ETIQUETA IMG QUE ENCUENTRE DENTRO DE LA CLASE */
+.container--img_fondo img:first-child {
+    width: 100%;
+    height: 15vh ;
+}
 
+.container--img_fondo > h3 {
+    position: absolute;
+    top: 1rem;
+    height: 1000px;
+    display: flex;
+    color: var(--color-text);
+    position: relative; 
+    bottom: 72px
+}
 
+.container--img_fondo>h3>span {
+    color: var(--color-text);
+}
+footer {
+    margin-top: 2000px;
+}
+.contenedor-para__centrar{
+    /* justify-content: ; */
+    background-color: rgba(137, 43, 226, 0.692);
+    height: 300px;
+    width:100px ;
+}
